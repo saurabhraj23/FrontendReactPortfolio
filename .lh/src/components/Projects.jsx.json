@@ -1,0 +1,42 @@
+{
+    "sourceFile": "src/components/Projects.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1721671222032,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1721671231289,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,8 @@\n     <>\n       <div className=\"projects-left-side\"></div>\n       <div className=\"projects-right-side\">\n         <div className=\"project-item\">\n-          <img src={} alt=\"OnlineBankingApp\" />\n           <h2>OnlineBankingApp</h2>\n         </div>\n         <div className=\"project-item\">\n           <h2>GlassPortfolio</h2>\n"
+                },
+                {
+                    "date": 1721671348397,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,6 @@\n import React from \"react\";\n import \"../styles/App.css\";\n-\n function Projects() {\n   return (\n     <>\n       <div className=\"projects-left-side\"></div>\n"
+                },
+                {
+                    "date": 1721672023980,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   return (\n     <>\n       <div className=\"projects-left-side\"></div>\n       <div className=\"projects-right-side\">\n-        <div className=\"project-item\">\n+        <div onClick={handleItem} className=\"project-item\">\n           <h2>OnlineBankingApp</h2>\n         </div>\n         <div className=\"project-item\">\n           <h2>GlassPortfolio</h2>\n"
+                },
+                {
+                    "date": 1721672042802,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,11 @@\n import React from \"react\";\n import \"../styles/App.css\";\n+\n+function handleItem(){\n+  \n+}\n+\n function Projects() {\n   return (\n     <>\n       <div className=\"projects-left-side\"></div>\n"
+                },
+                {
+                    "date": 1721672060773,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,10 @@\n import React from \"react\";\n import \"../styles/App.css\";\n \n-function handleItem() {}\n+function handleItem(e) {\n+  console.log(e.target.value)\n+}\n \n function Projects() {\n   return (\n     <>\n"
+                },
+                {
+                    "date": 1721672097071,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   return (\n     <>\n       <div className=\"projects-left-side\"></div>\n       <div className=\"projects-right-side\">\n-        <div onClick={handleItem} className=\"project-item\">\n+        <div className=\"project-item\">\n           <h2>OnlineBankingApp</h2>\n         </div>\n         <div className=\"project-item\">\n           <h2>GlassPortfolio</h2>\n"
+                }
+            ],
+            "date": 1721671222032,
+            "name": "Commit-0",
+            "content": "import React from \"react\";\nimport \"../styles/App.css\";\n\nfunction Projects() {\n  return (\n    <>\n      <div className=\"projects-left-side\"></div>\n      <div className=\"projects-right-side\">\n        <div className=\"project-item\">\n          <img src={} alt=\"OnlineBankingApp\" />\n          <h2>OnlineBankingApp</h2>\n        </div>\n        <div className=\"project-item\">\n          <h2>GlassPortfolio</h2>\n        </div>\n        <div className=\"project-item\">\n          <h2>Denoising Image</h2>\n        </div>\n        <div className=\"project-item\">\n          <h2>Pruning of LLM</h2>\n        </div>\n      </div>\n    </>\n  );\n}\n\nexport default Projects;\n"
+        }
+    ]
+}

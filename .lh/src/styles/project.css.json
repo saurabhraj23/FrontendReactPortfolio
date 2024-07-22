@@ -1,0 +1,190 @@
+{
+    "sourceFile": "src/styles/project.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 43,
+            "patches": [
+                {
+                    "date": 1721672211127,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1721672217616,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n box-sizing: border-box;\n position: relative;\n }\n \n-.project-item:hover{\n+button .project-item:hover{\n cursor: pointer;\n box-shadow: 0.2rem 0.2rem 2rem 0 var(--secondary-blue);\n }\n \n"
+                },
+                {
+                    "date": 1721672223007,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n cursor: pointer;\n box-shadow: 0.2rem 0.2rem 2rem 0 var(--secondary-blue);\n }\n \n-.project-item > h2{\n+button .project-item > h2{\n position: absolute;\n bottom: 50%;\n text-align: center;\n width: 100%;\n"
+                },
+                {
+                    "date": 1721672242784,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   justify-content: space-between;\n   padding:1rem ;\n }\n \n-button .project-item{\n+button {\n   border: 1px solid pink;\n width: 20vw;\n height: 20vw;\n box-sizing: border-box;\n"
+                },
+                {
+                    "date": 1721672255902,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,22 +9,22 @@\n   justify-content: space-between;\n   padding:1rem ;\n }\n \n-button {\n+.project-item{\n   border: 1px solid pink;\n width: 20vw;\n height: 20vw;\n box-sizing: border-box;\n position: relative;\n }\n \n-button .project-item:hover{\n+.project-item:hover{\n cursor: pointer;\n box-shadow: 0.2rem 0.2rem 2rem 0 var(--secondary-blue);\n }\n \n-button .project-item > h2{\n+.project-item > h2{\n position: absolute;\n bottom: 50%;\n text-align: center;\n width: 100%;\n"
+                },
+                {
+                    "date": 1721672762156,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,11 +22,4 @@\n cursor: pointer;\n box-shadow: 0.2rem 0.2rem 2rem 0 var(--secondary-blue);\n }\n \n-.project-item > h2{\n-position: absolute;\n-bottom: 50%;\n-text-align: center;\n-width: 100%;\n-\n-}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1721672772051,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,8 +15,11 @@\n width: 20vw;\n height: 20vw;\n box-sizing: border-box;\n position: relative;\n+position: absolute;\n+bottom: 50%;\n+text-align: center;\n }\n \n .project-item:hover{\n cursor: pointer;\n"
+                },
+                {
+                    "date": 1721672778421,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,10 +14,8 @@\n   border: 1px solid pink;\n width: 20vw;\n height: 20vw;\n box-sizing: border-box;\n-position: relative;\n-position: absolute;\n bottom: 50%;\n text-align: center;\n }\n \n"
+                },
+                {
+                    "date": 1721672784105,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,10 +14,10 @@\n   border: 1px solid pink;\n width: 20vw;\n height: 20vw;\n box-sizing: border-box;\n-bottom: 50%;\n-text-align: center;\n+position: relative;\n+\n }\n \n .project-item:hover{\n cursor: pointer;\n"
+                },
+                {
+                    "date": 1721672802804,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,10 +14,9 @@\n   border: 1px solid pink;\n width: 20vw;\n height: 20vw;\n box-sizing: border-box;\n-position: relative;\n-\n+font-size: 2rem;\n }\n \n .project-item:hover{\n cursor: pointer;\n"
+                },
+                {
+                    "date": 1721672815539,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n   border: 1px solid pink;\n width: 20vw;\n height: 20vw;\n box-sizing: border-box;\n-font-size: 2rem;\n+font-size: 1.5rem;\n }\n \n .project-item:hover{\n cursor: pointer;\n"
+                },
+                {
+                    "date": 1721672822337,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n   border: 1px solid pink;\n width: 20vw;\n height: 20vw;\n box-sizing: border-box;\n-font-size: 1.5rem;\n+font-size: 1rem;\n }\n \n .project-item:hover{\n cursor: pointer;\n"
+                },
+                {
+                    "date": 1721673463661,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,6 +20,7 @@\n \n .project-item:hover{\n cursor: pointer;\n box-shadow: 0.2rem 0.2rem 2rem 0 var(--secondary-blue);\n+border-radius:2rem ;\n }\n \n"
+                },
+                {
+                    "date": 1721673479144,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,12 +15,13 @@\n width: 20vw;\n height: 20vw;\n box-sizing: border-box;\n font-size: 1rem;\n+border-radius:2rem ;\n+\n }\n \n .project-item:hover{\n cursor: pointer;\n box-shadow: 0.2rem 0.2rem 2rem 0 var(--secondary-blue);\n-border-radius:2rem ;\n }\n \n"
+                },
+                {
+                    "date": 1721673511710,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,8 @@\n width: 20vw;\n height: 20vw;\n box-sizing: border-box;\n font-size: 1rem;\n-border-radius:2rem ;\n \n }\n \n .project-item:hover{\n"
+                },
+                {
+                    "date": 1721673521170,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,8 +15,9 @@\n width: 20vw;\n height: 20vw;\n box-sizing: border-box;\n font-size: 1rem;\n+border-radius:1rem ;\n \n }\n \n .project-item:hover{\n"
+                },
+                {
+                    "date": 1721673585543,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,6 +22,7 @@\n \n .project-item:hover{\n cursor: pointer;\n box-shadow: 0.2rem 0.2rem 2rem 0 var(--secondary-blue);\n+text-align: end;\n }\n \n"
+                },
+                {
+                    "date": 1721673618011,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,7 +22,7 @@\n \n .project-item:hover{\n cursor: pointer;\n box-shadow: 0.2rem 0.2rem 2rem 0 var(--secondary-blue);\n-text-align: end;\n+text-justify:kashida;\n }\n \n"
+                },
+                {
+                    "date": 1721673657086,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,7 +22,8 @@\n \n .project-item:hover{\n cursor: pointer;\n box-shadow: 0.2rem 0.2rem 2rem 0 var(--secondary-blue);\n-text-justify:kashida;\n+display: flex;\n+justify-content: end;\n }\n \n"
+                },
+                {
+                    "date": 1721673674979,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,7 +23,8 @@\n .project-item:hover{\n cursor: pointer;\n box-shadow: 0.2rem 0.2rem 2rem 0 var(--secondary-blue);\n display: flex;\n-justify-content: end;\n+justify-content: center;\n+align-items: end;\n }\n \n"
+                },
+                {
+                    "date": 1721673689539,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,6 +25,7 @@\n box-shadow: 0.2rem 0.2rem 2rem 0 var(--secondary-blue);\n display: flex;\n justify-content: center;\n align-items: end;\n+font-size: 2rem;\n }\n \n"
+                },
+                {
+                    "date": 1721673695573,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,7 +25,7 @@\n box-shadow: 0.2rem 0.2rem 2rem 0 var(--secondary-blue);\n display: flex;\n justify-content: center;\n align-items: end;\n-font-size: 2rem;\n+font-size: 1.4rem;\n }\n \n"
+                },
+                {
+                    "date": 1721673725184,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,6 +26,7 @@\n display: flex;\n justify-content: center;\n align-items: end;\n font-size: 1.4rem;\n+transition: all 2s;\n }\n \n"
+                },
+                {
+                    "date": 1721673788970,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n height: 20vw;\n box-sizing: border-box;\n font-size: 1rem;\n border-radius:1rem ;\n-\n+background-color: var(--secondary-blue);\n }\n \n .project-item:hover{\n cursor: pointer;\n"
+                },
+                {
+                    "date": 1721673801759,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,8 +17,9 @@\n box-sizing: border-box;\n font-size: 1rem;\n border-radius:1rem ;\n background-color: var(--secondary-blue);\n+filter: blur(1);\n }\n \n .project-item:hover{\n cursor: pointer;\n"
+                },
+                {
+                    "date": 1721673822665,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n height: 20vw;\n box-sizing: border-box;\n font-size: 1rem;\n border-radius:1rem ;\n-background-color: var(--secondary-blue);\n+background-color: var(pink);\n filter: blur(1);\n }\n \n .project-item:hover{\n"
+                },
+                {
+                    "date": 1721673829955,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n height: 20vw;\n box-sizing: border-box;\n font-size: 1rem;\n border-radius:1rem ;\n-background-color: var(pink);\n+background-color: (pink);\n filter: blur(1);\n }\n \n .project-item:hover{\n"
+                },
+                {
+                    "date": 1721673837268,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n height: 20vw;\n box-sizing: border-box;\n font-size: 1rem;\n border-radius:1rem ;\n-background-color: (pink);\n+background-color:pink\n filter: blur(1);\n }\n \n .project-item:hover{\n"
+                },
+                {
+                    "date": 1721673911692,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n height: 20vw;\n box-sizing: border-box;\n font-size: 1rem;\n border-radius:1rem ;\n-background-color:pink\n+background-image: url(\"../assets/cpp.png\");\n filter: blur(1);\n }\n \n .project-item:hover{\n"
+                },
+                {
+                    "date": 1721673920692,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n box-sizing: border-box;\n font-size: 1rem;\n border-radius:1rem ;\n background-image: url(\"../assets/cpp.png\");\n-filter: blur(1);\n+filter: blur(0.6);\n }\n \n .project-item:hover{\n cursor: pointer;\n"
+                },
+                {
+                    "date": 1721673971769,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n box-sizing: border-box;\n font-size: 1rem;\n border-radius:1rem ;\n background-image: url(\"../assets/cpp.png\");\n-filter: blur(0.6);\n+filter: blur(0.6rem);\n }\n \n .project-item:hover{\n cursor: pointer;\n"
+                },
+                {
+                    "date": 1721673981277,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n box-sizing: border-box;\n font-size: 1rem;\n border-radius:1rem ;\n background-image: url(\"../assets/cpp.png\");\n-filter: blur(0.6rem);\n+filter: blur(0.2rem);\n }\n \n .project-item:hover{\n cursor: pointer;\n"
+                },
+                {
+                    "date": 1721674055402,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,8 +19,11 @@\n border-radius:1rem ;\n background-image: url(\"../assets/cpp.png\");\n filter: blur(0.2rem);\n }\n+.project-item::before{\n+  content: \"\";\n+}\n \n .project-item:hover{\n cursor: pointer;\n box-shadow: 0.2rem 0.2rem 2rem 0 var(--secondary-blue);\n"
+                },
+                {
+                    "date": 1721674073746,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,8 +21,11 @@\n filter: blur(0.2rem);\n }\n .project-item::before{\n   content: \"\";\n+  background-image: url(\"../assets/cpp.png\");\n+filter: blur(0.2rem);\n+z-index: -10;\n }\n \n .project-item:hover{\n cursor: pointer;\n"
+                },
+                {
+                    "date": 1721674083591,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,11 +15,9 @@\n width: 20vw;\n height: 20vw;\n box-sizing: border-box;\n font-size: 1rem;\n-border-radius:1rem ;\n-background-image: url(\"../assets/cpp.png\");\n-filter: blur(0.2rem);\n+\n }\n .project-item::before{\n   content: \"\";\n   background-image: url(\"../assets/cpp.png\");\n"
+                },
+                {
+                    "date": 1721674096331,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n .project-item::before{\n   content: \"\";\n   background-image: url(\"../assets/cpp.png\");\n filter: blur(0.2rem);\n-z-index: -10;\n+z-index: -1;\n }\n \n .project-item:hover{\n cursor: pointer;\n"
+                },
+                {
+                    "date": 1721674103148,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,8 +15,9 @@\n width: 20vw;\n height: 20vw;\n box-sizing: border-box;\n font-size: 1rem;\n+position: relative;\n \n }\n .project-item::before{\n   content: \"\";\n"
+                },
+                {
+                    "date": 1721674108620,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,8 +23,9 @@\n   content: \"\";\n   background-image: url(\"../assets/cpp.png\");\n filter: blur(0.2rem);\n z-index: -1;\n+position: absolute;\n }\n \n .project-item:hover{\n cursor: pointer;\n"
+                },
+                {
+                    "date": 1721674127132,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n font-size: 1rem;\n position: relative;\n \n }\n-.project-item::before{\n+.project-item:hover::before{\n   content: \"\";\n   background-image: url(\"../assets/cpp.png\");\n filter: blur(0.2rem);\n z-index: -1;\n"
+                },
+                {
+                    "date": 1721674139309,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,17 +15,14 @@\n width: 20vw;\n height: 20vw;\n box-sizing: border-box;\n font-size: 1rem;\n-position: relative;\n \n }\n .project-item:hover::before{\n   content: \"\";\n   background-image: url(\"../assets/cpp.png\");\n filter: blur(0.2rem);\n-z-index: -1;\n-position: absolute;\n }\n \n .project-item:hover{\n cursor: pointer;\n"
+                },
+                {
+                    "date": 1721674164339,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,8 +21,9 @@\n .project-item:hover::before{\n   content: \"\";\n   background-image: url(\"../assets/cpp.png\");\n filter: blur(0.2rem);\n+background-size: cover;\n }\n \n .project-item:hover{\n cursor: pointer;\n"
+                },
+                {
+                    "date": 1721674174545,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,15 +17,10 @@\n box-sizing: border-box;\n font-size: 1rem;\n \n }\n-.project-item:hover::before{\n-  content: \"\";\n-  background-image: url(\"../assets/cpp.png\");\n-filter: blur(0.2rem);\n-background-size: cover;\n-}\n \n+\n .project-item:hover{\n cursor: pointer;\n box-shadow: 0.2rem 0.2rem 2rem 0 var(--secondary-blue);\n display: flex;\n"
+                },
+                {
+                    "date": 1721674215004,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,13 @@\n box-sizing: border-box;\n font-size: 1rem;\n }\n \n+.project-item::backdrop{\n+  \n+}\n \n+\n .project-item:hover{\n cursor: pointer;\n box-shadow: 0.2rem 0.2rem 2rem 0 var(--secondary-blue);\n display: flex;\n"
+                },
+                {
+                    "date": 1721676669196,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,8 @@\n   justify-content: space-between;\n   padding: 1rem;\n }\n .project-item>span:nth-of-type(2){\n-  display: flex\n+  display: \n }\n \n \n"
+                }
+            ],
+            "date": 1721672211127,
+            "name": "Commit-0",
+            "content": ".projects-left-side{\n  border: 1px solid red;\n  display: none;\n}\n.projects-right-side{\n  border: 1px solid red;\n  grid-column: 1/3;\n  display: flex;\n  justify-content: space-between;\n  padding:1rem ;\n}\n\nbutton .project-item{\n  border: 1px solid pink;\nwidth: 20vw;\nheight: 20vw;\nbox-sizing: border-box;\nposition: relative;\n}\n\n.project-item:hover{\ncursor: pointer;\nbox-shadow: 0.2rem 0.2rem 2rem 0 var(--secondary-blue);\n}\n\n.project-item > h2{\nposition: absolute;\nbottom: 50%;\ntext-align: center;\nwidth: 100%;\n\n}"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+.projects-left-side{
+  border: 1px solid red;
+  display: none;
+}
+.projects-right-side{
+  border: 1px solid red;
+  grid-column: 1/3;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.project-item{
+  /* position: relative; */
+  /* width: 20%;
+  height: 20%; */
+}
+.project-item>span:nth-of-type(2){
+/* position: absolute; */
+bottom: 0;
+
+}
+
+

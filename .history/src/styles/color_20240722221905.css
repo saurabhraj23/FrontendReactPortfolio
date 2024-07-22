@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root {
+--bg-color:#031627;
+--primary-white:#fff;
+--primary-dark:#d3d0d076;
+--secondary-blue:#424ea6;
+--tertiary-green:#37857e;
+--tertiary-green-dark:#77E4C8;
+--tertiary-brown-light:#D4BDAC;
+--tertiary-orange:#b0855a;
+
+}

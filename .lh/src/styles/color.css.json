@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/styles/color.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1721680723300,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1721680723300,
+            "name": "Commit-0",
+            "content": "@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');\n\n:root {\n--bg-color:#031627;\n--primary-white:#fff;\n--primary-dark:#d3d0d076;\n--secondary-blue:#424ea6;\n--tertiary-green:#37857e;\n--tertiary-green-dark:#77E4C8;\n--tertiary-brown-light:#D4BDAC;\n--tertiary-orange:#b0855a;\n\n}\n"
+        }
+    ]
+}
