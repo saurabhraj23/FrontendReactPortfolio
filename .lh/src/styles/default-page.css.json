@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/styles/default-page.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1721726523056,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1721726523056,
+            "name": "Commit-0",
+            "content": "\n.sidebar{\noverflow: hidden;\npadding: 0 2rem;\n\n}\n\n.rightSide{\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  gap: 6rem;\n\n}\n.rightSide > div:first-child h1{\n  font-size: 4rem;\n}\n.rightSide h2{\n  font-size: 2rem;\n  color: var(--secondary-blue);\n}\n.rightSide h3{\n  font-size: 1.4rem;\n  color: var(--tertiary-green);\n}\n\n.rightSide div:nth-of-type(2){\ndisplay:flex;\nflex-direction: column;\ngap: 1rem;\n}\n\n.rightSide div:nth-of-type(2) > h4:first-child{\ncolor: var(--primary-dark);\nfont-size: 1.4rem;\n}\n\n.rightSide div:nth-of-type(2) > h4:nth-of-type(2) span:nth-of-type(1){\ncolor: var(--secondary-blue);\n}\n  \n.rightSide div:nth-of-type(2) > h4:nth-of-type(2) span:nth-of-type(2){\n  color: var(--tertiary-green);\n}\n\n.rightSide div:nth-of-type(2) > h4:nth-of-type(2) span:nth-of-type(3){\ncolor: var(--tertiary-orange);\n}\n\n.rightSide div:nth-of-type(2) >span>a{\ncolor: var(--tertiary-orange);\ntext-decoration:none;\n}\n\n.rightSide div:nth-of-type(2) >span>a>span{\n  color: var(--tertiary-green);\n  }\n\n  .rightSide div:first-child > h1 >span{\n  display: inline-block;\n}\n\n.sidebar > img {\n  border-bottom: 0.04rem solid var(--primary-dark);\nborder-radius: 0.6rem;\nfloat: right;\n\n}\n\n\n.sidebar>img{\n  display:inline-block;\n  transform: scale(0.8);\n}\n\n.sidebar>img:nth-of-type(2){\n  display:inline-block;\n  transform: scale(1);\n}\n\n.rightSide div > h2 > span {\n  display: inline-block;\n  animation: arrow 2s infinite alternate;\n}\n\n@keyframes arrow {\n  from{\n    transform: translateX(-0.6rem);\n  }\n}\n\n .rightSide > div:nth-child(2)>span>span {\n  animation: underscore 0.2s infinite alternate;\n}\n\n@keyframes underscore {\n  from {\n    opacity: 0;\n  }\n  to{\n    opacity: 1;\n  }\n}\n\n.underscore{\n  color: var(--tertiary-orange);\n}\n\n"
+        }
+    ]
+}

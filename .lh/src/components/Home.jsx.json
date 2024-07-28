@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/components/Home.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1721726413731,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1721726425597,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,11 +2,11 @@\n import { Outlet } from \"react-router-dom\";\n \n function Home() {\n   return (\n-    <div>\n+    <>\n       <Outlet />\n-    </div>\n+    </>\n   );\n }\n \n export default Home;\n"
+                }
+            ],
+            "date": 1721726413731,
+            "name": "Commit-0",
+            "content": "import React from \"react\";\nimport { Outlet } from \"react-router-dom\";\n\nfunction Home() {\n  return (\n    <div>\n      <Outlet />\n    </>\n  );\n}\n\nexport default Home;\n"
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "sourceFile": "src/styles/App.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 10,
+            "patches": [
+                {
+                    "date": 1721726535297,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1721726572850,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n .main{\n   background-color: var(--bg-color);\n   color: var(--primary-white);\n   height: 100vh;\n-  width: 100%;\n+  /* width: 100%; */\n   display: grid;\n   grid-template-rows: 1fr 8fr 1fr;\n   grid-template-columns: 4fr 3fr;\n padding: 0;\n"
+                },
+                {
+                    "date": 1721726590502,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,11 +19,10 @@\n .main{\n   background-color: var(--bg-color);\n   color: var(--primary-white);\n   height: 100vh;\n-  /* width: 100%; */\n+  width: 100%;\n   display: grid;\n   grid-template-rows: 1fr 8fr 1fr;\n   grid-template-columns: 4fr 3fr;\n padding: 0;\n-max-width: 100vw;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1721726599233,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,9 @@\n   padding: 0;\n   box-sizing: border-box;\n   font-family: \"Source Code Pro\";\n   font-weight: 400;\n+  width: 100vw;\n }\n \n .main{\n   background-color: var(--bg-color);\n"
+                },
+                {
+                    "date": 1721726617194,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,8 @@\n   padding: 0;\n   box-sizing: border-box;\n   font-family: \"Source Code Pro\";\n   font-weight: 400;\n-  width: 100vw;\n }\n \n .main{\n   background-color: var(--bg-color);\n"
+                },
+                {
+                    "date": 1721726657185,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,6 +23,6 @@\n   width: 100%;\n   display: grid;\n   grid-template-rows: 1fr 8fr 1fr;\n   grid-template-columns: 4fr 3fr;\n-padding: 0;\n+padding: 2rem;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1721726671530,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,6 +23,6 @@\n   width: 100%;\n   display: grid;\n   grid-template-rows: 1fr 8fr 1fr;\n   grid-template-columns: 4fr 3fr;\n-padding: 2rem;\n+padding: 20rem;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1721726680183,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,6 +23,6 @@\n   width: 100%;\n   display: grid;\n   grid-template-rows: 1fr 8fr 1fr;\n   grid-template-columns: 4fr 3fr;\n-padding: 20rem;\n+padding: 4rem;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1721726693993,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,6 +23,5 @@\n   width: 100%;\n   display: grid;\n   grid-template-rows: 1fr 8fr 1fr;\n   grid-template-columns: 4fr 3fr;\n-padding: 4rem;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1721726701100,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n .main{\n   background-color: var(--bg-color);\n   color: var(--primary-white);\n   height: 100vh;\n-  width: 100%;\n+  width: 100vw;\n   display: grid;\n   grid-template-rows: 1fr 8fr 1fr;\n   grid-template-columns: 4fr 3fr;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1721726724767,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n .main{\n   background-color: var(--bg-color);\n   color: var(--primary-white);\n   height: 100vh;\n-  width: 100vw;\n+  width: 100%;\n   display: grid;\n   grid-template-rows: 1fr 8fr 1fr;\n   grid-template-columns: 4fr 3fr;\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1721726535297,
+            "name": "Commit-0",
+            "content": "@import \"./color.css\";\n@import \"./experience.css\";\n@import \"./education.css\";\n@import \"./project.css\";\n@import \"./header.css\";\n@import \"./contact-me.css\";\n@import \"./footer.css\";\n@import \"./default-page.css\";\n\n\n*{\n  margin:0;\n  padding: 0;\n  box-sizing: border-box;\n  font-family: \"Source Code Pro\";\n  font-weight: 400;\n}\n\n.main{\n  background-color: var(--bg-color);\n  color: var(--primary-white);\n  height: 100vh;\n  width: 100%;\n  display: grid;\n  grid-template-rows: 1fr 8fr 1fr;\n  grid-template-columns: 4fr 3fr;\npadding: 0;\nmax-width: 100vw;\n}"
+        }
+    ]
+}
